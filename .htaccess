@@ -1,0 +1,4 @@
+PassengerNodejs /home/s/sanyat9v/.local/bin/node
+PassengerAppRoot /home/s/sanyat9v/api/public_html
+PassengerAppType node
+PassengerStartupFile server.js

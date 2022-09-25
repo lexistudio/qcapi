@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brends",
+  "info": {
+    "name": "brend",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "catalogs": {
+      "via": "brend",
+      "collection": "catalogs"
+    }
+  }
+}

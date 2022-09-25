@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_comp_catalogs",
+  "info": {
+    "name": "catalog",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "catalogs": {
+      "collection": "catalogs"
+    }
+  }
+}

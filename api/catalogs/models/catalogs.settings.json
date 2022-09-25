@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catalogs",
+  "info": {
+    "name": "catalogs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "vendorCode": {
+      "type": "string"
+    },
+    "count": {
+      "type": "biginteger"
+    },
+    "characteristics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "comp.characteristics"
+    },
+    "brend": {
+      "model": "brend",
+      "via": "catalogs"
+    },
+    "delivery": {
+      "type": "string"
+    }
+  }
+}

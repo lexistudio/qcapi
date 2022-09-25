@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/remomendacis",
+      "handler": "remomendaci.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/remomendacis/count",
+      "handler": "remomendaci.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/remomendacis/:id",
+      "handler": "remomendaci.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/remomendacis",
+      "handler": "remomendaci.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/remomendacis/:id",
+      "handler": "remomendaci.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/remomendacis/:id",
+      "handler": "remomendaci.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

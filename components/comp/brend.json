@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_comp_brends",
+  "info": {
+    "name": "brend",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brends": {
+      "collection": "brend"
+    }
+  }
+}

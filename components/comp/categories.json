@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_comp_categories",
+  "info": {
+    "name": "categories",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "catalog": {
+      "type": "component",
+      "repeatable": false,
+      "component": "comp.catalog"
+    }
+  }
+}

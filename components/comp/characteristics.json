@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_comp_characteristics",
+  "info": {
+    "name": "characteristics",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}
